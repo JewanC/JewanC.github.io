@@ -33,7 +33,7 @@ $$
 
 If  
 $$
-\mathbb{P}^2 = \mathbb{R}^3 - (0,0,0)
+P^2 = R^3 - (0,0,0)
 $$
 this represents the **2D projective space**, where all points with the same direction are equivalent.
 
