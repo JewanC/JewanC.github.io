@@ -31,7 +31,7 @@ $$
 \tilde{\mathbf{x}} = \tilde{l_1} \times \tilde{l_2}
 $$
 
-Also, the line that passes two line is:
+Also, the line that passes two points is:
 
 $$
 \tilde{l} = \tilde{x_1} \times \tilde{x_2}
