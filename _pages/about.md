@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 Hi!
-I'm Jewan Chae, who is at University of Utah with Computer Science major.
+I'm Jewan Chae, who is at University of Utah Computer Science major.
 I was born in Pohang, Korea, and currently staying in Salt Lake City, Utah, US.
 
 I have a huge interest in Computer Vision, which is the course that I am taking currently(Fall 25).
