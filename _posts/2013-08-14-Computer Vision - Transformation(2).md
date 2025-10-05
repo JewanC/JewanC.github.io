@@ -58,6 +58,7 @@ In Augmented vector:
 $$
 \bar{\mathbf{x}} = (x,y,z,1)
 $$
+
 with $\tilde{\mathbf{x}} = w \bar{x}$ 
 
 <img width="381" height="195" alt="image" src="https://github.com/user-attachments/assets/744b3d8d-acb9-4722-919a-9108652c5110" />
