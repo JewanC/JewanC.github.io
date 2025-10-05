@@ -31,10 +31,11 @@ $$
 \tilde{\mathbf{x}} = (\tilde{x}, \tilde{y}, \tilde{w})
 $$
 
-If  
+If
 $$
-P^2 = R^3 - (0,0,0)
+\mathbb{P}^2 = \mathbb{R}^3 - (0,0,0)
 $$
+
 this represents the **2D projective space**, where all points with the same direction are equivalent.
 
 ---
