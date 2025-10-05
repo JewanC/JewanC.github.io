@@ -41,7 +41,7 @@ $$
 
 ### 3D points
 
-Points in 3D int homogeneous coordinate:
+Points in 3D in homogeneous coordinate:
 
 $$
 \mathbf{x} = (x,y,z) \in \mathbf{R^3} 
