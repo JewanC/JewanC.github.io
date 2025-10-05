@@ -90,3 +90,6 @@ Here,
 **Exception:**  
 When $\tilde{\mathbf{l}} = (0,0,1)$, since this includes all ideal points, it cannot be normalized.  
 This $\tilde{\mathbf{l}}$ is called the **line at infinity**.
+
+<img width="612" height="233" alt="image" src="https://github.com/user-attachments/assets/5f7be454-d932-4980-8ded-b66dad83ed94" />
+
