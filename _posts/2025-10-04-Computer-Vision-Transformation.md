@@ -11,7 +11,7 @@ Geometric primitives and transformations
 2D points
 ------
 In 2D space, A pixel coordinate of an image is:
-  $x = \begin{bmatrix} x\\y \end{bmatrix}
+  $x = \begin{bmatrix} x\\y \end{bmatrix}$
 
 Homogeneous coordintate:
   If direction is same, only sclale is different, it is called as **Homogeneous Coordinate**
@@ -21,7 +21,7 @@ if $P^2 = R^3 -(0,0,0)$
 Augment vector:
   $\tilde{X} = (\tilde x, \tilde y, \tilde w) =\tilde w(\tilde x, \tilde y, 1) = \tilde w \tilde x$
   At this equation,
-    $\bar x = (x,y,1) is **Augmented Vector**
+    $\bar x = (x,y,1)$ is **Augmented Vector**
   Exception!
     When $\tilde w = 0$, There is no possibility to have equivalent inhomogeneous representation.
     Also, $\tilde w = 0$ is called **Ideal Point/Points at Infinity**.
