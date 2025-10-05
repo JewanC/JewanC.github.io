@@ -6,38 +6,85 @@ tags:
   - Computer Vision
   - Transformation
 ---
-Geometric primitives and transformations
-======
-2D points
-------
-In 2D space, A pixel coordinate of an image is:\\
-  $x = \begin{bmatrix} x&&y \end{bmatrix}$\\
 
-Homogeneous coordintate:\\
-  If direction is same, only sclale is different, it is called as **Homogeneous Coordinate**\\
+# Geometric Primitives and Transformations
 
-if $P^2 = R^3 -(0,0,0)$\\
-  This is 2D projective Image which has same direction each other.\\
-Augment vector:\\
-  $\tilde{X} = (\tilde x, \tilde y, \tilde w) =\tilde w(\tilde x, \tilde y, 1) = \tilde w \tilde x$\\
-  At this equation,\\
-    $\bar x = (x,y,1)$ is **Augmented Vector**\\
-  Exception!\\
-    When $\tilde w = 0$, There is no possibility to have equivalent inhomogeneous representation.\\
-    Also, $\tilde w = 0$ is called **Ideal Point/Points at Infinity**.\\
+## 2D Points
 
-  2D Lines\\
-  ------
-    When $\tilde I = (a,b,c)$, Line equation is:\\
-      $\bar x \cdot \tilte l = ax+by+c=0$\\
-    Normalized Line Equation:\\
-      $I=(\hat{n_x}, \hat{n_y}, d) = (\hat n, d), where $||n|| =1$\\
-      $n =$ **Normal Vector**, which is perpendicular to the line\\
-      $d =$ Distance from origin\\
-    Exception!\\
-      When $\tilde I = (0,0,1)$, as this includes all ideal points, there is no possibility to have normalized line equation.\\
-      $\tilde I$ is line at infinity.\\
-      
+In 2D space, a pixel coordinate of an image is:
 
+$$
+\mathbf{x} = 
+\begin{bmatrix}
+x \\
+y
+\end{bmatrix}
+$$
 
+---
 
+### Homogeneous Coordinates
+
+If the direction is the same and only the scale differs, it is called a **homogeneous coordinate**.
+
+$$
+\tilde{\mathbf{x}} = (\tilde{x}, \tilde{y}, \tilde{w})
+$$
+
+If  
+$$
+\mathbb{P}^2 = \mathbb{R}^3 - (0,0,0)
+$$
+this represents the **2D projective space**, where all points with the same direction are equivalent.
+
+---
+
+### Augmented Vector
+
+$$
+\tilde{\mathbf{x}} = (\tilde{x}, \tilde{y}, \tilde{w}) 
+= \tilde{w}(x, y, 1) 
+= \tilde{w}\bar{\mathbf{x}}
+$$
+
+At this equation,
+
+$$
+\bar{\mathbf{x}} = (x, y, 1)
+$$
+
+is the **Augmented Vector**.
+
+**Exception:**  
+When $\tilde{w} = 0$, there is no equivalent inhomogeneous representation.  
+Also, $\tilde{w} = 0$ corresponds to **Ideal Points (Points at Infinity)**.
+
+---
+
+## 2D Lines
+
+When  
+$$
+\tilde{\mathbf{l}} = (a, b, c),
+$$  
+the line equation is:
+
+$$
+\bar{\mathbf{x}} \cdot \tilde{\mathbf{l}} = ax + by + c = 0
+$$
+
+---
+
+### Normalized Line Equation
+
+$$
+\mathbf{l} = (\hat{n}_x, \hat{n}_y, d) = (\hat{\mathbf{n}}, d), \quad \|\hat{\mathbf{n}}\| = 1
+$$
+
+Here,  
+- $\hat{\mathbf{n}}$ is the **normal vector**, perpendicular to the line.  
+- $d$ is the **distance from the origin**.
+
+**Exception:**  
+When $\tilde{\mathbf{l}} = (0,0,1)$, since this includes all ideal points, it cannot be normalized.  
+This $\tilde{\mathbf{l}}$ is called the **line at infinity**.
