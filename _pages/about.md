@@ -15,7 +15,7 @@ I have a huge interest in Computer Vision, which is the course that I am taking 
 
 In Blog Posts section, I am going to post my studying notes about Computer Vision constantly.
 
-If you want to contact with me, please mail to:
+If you want to contact me, please mail to:
 jason99392@gmail.com
 
 Thank you!
