@@ -1,5 +1,6 @@
 ---
 title: 'Computer Vision - Transformation'
+mathjax: true
 date: 2025-10-04
 permalink: /posts/2025/10/blog-post-1/
 tags:
